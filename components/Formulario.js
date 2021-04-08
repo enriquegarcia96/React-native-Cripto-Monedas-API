@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet,TouchableHighlight, Alert } from 'react-native';
+import { View, Text, StyleSheet,TouchableHighlight, Alert, Image } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import axios from 'axios';
 
@@ -62,23 +62,22 @@ const Formulario = ({ moneda, criptoMoneda, guardarMoneda, guardarCriptoMoneda, 
     
     return ( 
         <View>
-            <Text style={styles.label}>Moneda</Text>
-            <Picker
+            <Text style={styles.label}>Moneda <Image style={styles.img} source={require('../assets/img/moneda.png')} /> </Text>
+            <Picker  style={styles.labelColor}
                 selectedValue={moneda}//para leer los valores que el usuario seleccione
                 onValueChange={ moneda => obtenerMoneda(moneda) }
                 itemStyle={{ height: 120 }}
             >
                 <Picker.Item  label='- Seleccione -' value="" />
-                <Picker.Item label='Peso Hondureño' value='HND' />
-                <Picker.Item label='Dolar de Estados Unidos' value='USD' />
-                <Picker.Item label='Peso Mexicano' value='MXN' />
-                <Picker.Item label='Euro' value='EUR' />
-                <Picker.Item label='Libra Esterlina' value='GBP' />
+                <Picker.Item  label='Dolar de Estados Unidos' value='USD' />
+                <Picker.Item  label='Peso Mexicano' value='MXN' />
+                <Picker.Item  label='Euro' value='EUR' />
+                <Picker.Item  label='Libra Esterlina' value='GBP' />
             </Picker>
 
-            <Text style={styles.label}>Criptomoneda</Text>
+            <Text style={styles.label}>Criptomoneda <Image style={styles.img} source={require('../assets/img/bitcon.png')} /> </Text>
 
-            <Picker
+            <Picker style={styles.labelColor}
                 selectedValue={criptoMoneda}//para leer los valores que el usuario seleccione 
                 onValueChange={ cripto => obtenerCriptomoneda(cripto) }
                 itemStyle={{ height: 120 }}
@@ -108,13 +107,15 @@ const Formulario = ({ moneda, criptoMoneda, guardarMoneda, guardarCriptoMoneda, 
 const styles = StyleSheet.create({
 
     label:{
+        color: '#FFF',
         fontFamily: 'Lato-Black',
         textTransform: 'uppercase',
         fontSize: 22,
-        marginVertical: 20
+        marginVertical: 20,
+        
     },
     btnCotizar:{
-        backgroundColor: '#5E49E2',
+        backgroundColor: '#0f3460',
         padding: 10,
         marginTop: 20,
     },
@@ -125,8 +126,13 @@ const styles = StyleSheet.create({
         textTransform: 'uppercase',
         textAlign: 'center'
 
+    },
+    labelColor:{
+        color:'#FFF'
+    }, img:{
+        width: 28,
+        height: 28,
     }
-
 })
  
 export default Formulario;

@@ -15,6 +15,12 @@
 		E8EE3A6D1E9B4E9EA5F3FA20 /* FrederickatheGreat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EED9919D04864E6CB0A6350A /* FrederickatheGreat-Regular.ttf */; };
 		3DDBDCCB1D0A447BAE14583C /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E7FAFCE85746C4BD1E4322 /* Lato-Black.ttf */; };
 		6BFA70311F75426C861EB1D6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6965F8CCD7284A61A44DAD7F /* Lato-Regular.ttf */; };
+		790B2C2BA10B4A6CA54687DE /* AlmendraDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30F4F303485F4CBF9347B374 /* AlmendraDisplay-Regular.ttf */; };
+		C90E1816E2F442A5B83B648B /* ButterflyKids-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8C3CF0229F145C2A35EA62E /* ButterflyKids-Regular.ttf */; };
+		6DDE2D9E490E4628B06127A7 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCC2173AF51249AC81580D57 /* IndieFlower-Regular.ttf */; };
+		C875E8E654494EF1ADBB6027 /* Miltonian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 788D108DE4BB438EAD68402E /* Miltonian-Regular.ttf */; };
+		45DFAC7FECB648F5BBD44CA1 /* MissFajardose-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55FA36A7091643008C9FE4C3 /* MissFajardose-Regular.ttf */; };
+		441692C75168460BAA1E89AC /* RubikMonoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E29508AE9C5C458FB09AFD03 /* RubikMonoOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,12 @@
 		EED9919D04864E6CB0A6350A /* FrederickatheGreat-Regular.ttf */ = {isa = PBXFileReference; name = "FrederickatheGreat-Regular.ttf"; path = "../assets/fonts/FrederickatheGreat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D3E7FAFCE85746C4BD1E4322 /* Lato-Black.ttf */ = {isa = PBXFileReference; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6965F8CCD7284A61A44DAD7F /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30F4F303485F4CBF9347B374 /* AlmendraDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "AlmendraDisplay-Regular.ttf"; path = "../assets/fonts/AlmendraDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8C3CF0229F145C2A35EA62E /* ButterflyKids-Regular.ttf */ = {isa = PBXFileReference; name = "ButterflyKids-Regular.ttf"; path = "../assets/fonts/ButterflyKids-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCC2173AF51249AC81580D57 /* IndieFlower-Regular.ttf */ = {isa = PBXFileReference; name = "IndieFlower-Regular.ttf"; path = "../assets/fonts/IndieFlower-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		788D108DE4BB438EAD68402E /* Miltonian-Regular.ttf */ = {isa = PBXFileReference; name = "Miltonian-Regular.ttf"; path = "../assets/fonts/Miltonian-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55FA36A7091643008C9FE4C3 /* MissFajardose-Regular.ttf */ = {isa = PBXFileReference; name = "MissFajardose-Regular.ttf"; path = "../assets/fonts/MissFajardose-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E29508AE9C5C458FB09AFD03 /* RubikMonoOne-Regular.ttf */ = {isa = PBXFileReference; name = "RubikMonoOne-Regular.ttf"; path = "../assets/fonts/RubikMonoOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +149,12 @@
 				EED9919D04864E6CB0A6350A /* FrederickatheGreat-Regular.ttf */,
 				D3E7FAFCE85746C4BD1E4322 /* Lato-Black.ttf */,
 				6965F8CCD7284A61A44DAD7F /* Lato-Regular.ttf */,
+				30F4F303485F4CBF9347B374 /* AlmendraDisplay-Regular.ttf */,
+				D8C3CF0229F145C2A35EA62E /* ButterflyKids-Regular.ttf */,
+				DCC2173AF51249AC81580D57 /* IndieFlower-Regular.ttf */,
+				788D108DE4BB438EAD68402E /* Miltonian-Regular.ttf */,
+				55FA36A7091643008C9FE4C3 /* MissFajardose-Regular.ttf */,
+				E29508AE9C5C458FB09AFD03 /* RubikMonoOne-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -235,6 +253,12 @@
 				E8EE3A6D1E9B4E9EA5F3FA20 /* FrederickatheGreat-Regular.ttf in Resources */,
 				3DDBDCCB1D0A447BAE14583C /* Lato-Black.ttf in Resources */,
 				6BFA70311F75426C861EB1D6 /* Lato-Regular.ttf in Resources */,
+				790B2C2BA10B4A6CA54687DE /* AlmendraDisplay-Regular.ttf in Resources */,
+				C90E1816E2F442A5B83B648B /* ButterflyKids-Regular.ttf in Resources */,
+				6DDE2D9E490E4628B06127A7 /* IndieFlower-Regular.ttf in Resources */,
+				C875E8E654494EF1ADBB6027 /* Miltonian-Regular.ttf in Resources */,
+				45DFAC7FECB648F5BBD44CA1 /* MissFajardose-Regular.ttf in Resources */,
+				441692C75168460BAA1E89AC /* RubikMonoOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
